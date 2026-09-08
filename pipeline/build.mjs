@@ -1,5 +1,8 @@
 // GTFS → OSM graph → map matching (HMM) → GeoJSON files for the frontend.
-// Budapest: ONE BKK feed (bkk.hu/gtfs/budapest_gtfs.zip) split by route_type —
+// Budapest: TWO feeds. The BKK bundle is the city; the national Volánbusz
+// feed contributes its 300–899 block — the regional network of the Budapest
+// region, drawn amber as its own category on the bus mode.
+// The BKK feed (bkk.hu/gtfs/budapest_gtfs.zip) splits by route_type —
 // buses (3) and trolleybuses (11, family green) on the road graph; trams (0),
 // metro M1–M4 and the MÁV-HÉV suburban lines H5–H9 (109) on the rail graph,
 // each rail cfg on its own slice of it. Metro
@@ -54,6 +57,16 @@ const keyParts = (s) => {
 // trolleybuses are whatever the feed loop painted green (TROLLEYS).
 const NIGHT = /^9\d\d$/;
 const TROLLEYS = new Set();
+// Panel grouping, the Berlin way: a line belongs to a GROUP, and the panel
+// prints its chips under that group's heading. Here the groups are the two
+// operators and — inside Volánbusz — its own hundreds blocks, which are how
+// the region is numbered: 300s north-east to Vác, 400s east to Gödöllő, 500s
+// south-east to Cegléd, 600s south to Ráckeve, 700s west to Érd, 800s
+// north-west to Szentendre and Esztergom. Nothing is invented for it: the
+// block comes from the number the feed ships, and the towns in each heading
+// are counted off that block's own stop names below.
+const LINE_OP = new Map();
+const OP_NAME = { bkk: 'BKK — Budapest', hev: 'MÁV-HÉV' };
 const lineRank = (k) => (TROLLEYS.has(k) ? 0
   : NIGHT.test(typeof LBL !== 'undefined' && LBL.has(k) ? LBL.get(k) : k) ? 2 : 1);
 const numSort = (a, b) => {
@@ -124,15 +137,37 @@ const busList = busArgs.filter((a) => a !== '--all');
 // 11 = trolleybus riding the bus network in green; 0 = tram, 1 = metro and
 // 109 = HÉV riding the rail mode in their official line colors). Without the filter `--all` on the bus mode would swallow the
 // rail lines too.
+// The regional network: Volánbusz numbers every line of the Budapest region
+// 300–899, and that block is exactly what the second feed contributes — 439
+// lines from the airport shuttles of Vecsés to the 130 km run of the 555.
+// They are a category of their own on the map (amber, own toggle), the way
+// Rio's BRT and Cairo's paratransit are: a passenger reads one network in
+// navy (BKK, city fare) and another in amber (Volánbusz, regional fare), and
+// the amber is the operator's own colour on the vehicle (F6AC00 in the feed).
+const REGIONAL = /^[3-8]\d\d$/;
 const MODES = [{
-  mode: 'bus', label: 'buses', osmFile: 'data/osm/budapest.json',
+  mode: 'bus', label: 'buses',
+  // BKK city + the whole Volánbusz 300–899 block = a 200 × 165 km frame
+  // (Salgótarján–Szekszárd, Székesfehérvár–Szolnok): 7 × 7 tiles cut out of
+  // the Geofabrik hungary extract, no Overpass mirror serves a box this size
+  osmFiles: Array.from({ length: 49 }, (_, i) => `data/osm/tiles/t${i + 1}.json`),
   graphMode: 'road', color: '#0059a9', colorDark: '#00294f',
   all: busAll, lines: busList.length ? busList : (busAll ? [] : ['7']),
   feeds: [
     // skipRoute: pótló buses (VP/TP/MP route_ids) run the same NUMBER as the
     // rail line they replace — drawing them would put a bus "M2" on the map
     { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['3', '11'],
-      skipRoute: (r) => /^(VP|TP|MP)/.test(r.route_id || '') },
+      op: () => 'bkk', skipRoute: (r) => /^(VP|TP|MP)/.test(r.route_id || '') },
+    // Volánbusz: ONE national feed (3 486 routes, Sopron to Nyíregyháza), of
+    // which this map takes the 300–899 block — the region's own numbering, so
+    // the filter is the number itself and nothing geographic. Types 200
+    // (regional coach) and 3 (the two Érd town lines, 738 and 746, that share
+    // the block). No collision with BKK: the city stops at 298E and resumes
+    // at 901, and this map is the first place the two ranges meet.
+    { tag: 'volan', dir: 'data/gtfs-volan', routeTypes: ['200', '3'],
+      skipRoute: (r) => !REGIONAL.test((r.route_short_name || '').trim()),
+      mapKey: (sn) => sn, op: (r, k) => 'v' + k[0],
+      nameFix: (n) => n.replace(/^Budapest,\s*/, '') },
   ],
 }];
 // The rail slot splits in TWO cfgs sharing mode 'tram': street trams and the
@@ -156,7 +191,7 @@ if (tramAll || tramSel.length) MODES.push({
   color: '#d6212b', colorDark: '#7c1116',
   all: tramAll, lines: tramAll ? [] : tramSel,
   feeds: [
-    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['0'] },
+    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['0'], op: () => 'bkk' },
   ],
 });
 if (tramAll || metroSel.length) MODES.push({
@@ -165,7 +200,7 @@ if (tramAll || metroSel.length) MODES.push({
   color: '#d6212b', colorDark: '#7c1116',
   all: tramAll, lines: tramAll ? [] : metroSel,
   feeds: [
-    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['1'] },
+    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['1'], op: () => 'bkk' },
   ],
 });
 if (tramAll || hevSel.length) MODES.push({
@@ -177,7 +212,7 @@ if (tramAll || hevSel.length) MODES.push({
   color: '#8a236c', colorDark: '#48123a',
   all: tramAll, lines: tramAll ? [] : hevSel,
   feeds: [
-    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['109'] },
+    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['109'], op: () => 'hev' },
   ],
 });
 
@@ -264,7 +299,7 @@ async function processMode(cfg) {
     return c;
   };
   cfg.trolleySet = new Set(); // route_type 11 — green per-line color on the bus mode
-  cfg.mlineSet = new Set(); // no amber metroline category in this region
+  cfg.mlineSet = new Set(); // no amber category here: colour means the MODE
   cfg.lineColors = {};
   cfg.lineColorsDark = {};
 
@@ -294,6 +329,7 @@ async function processMode(cfg) {
       const key = feed.mapKey((r.route_short_name || '').trim());
       if (!key) continue;
       routeToLine.set(r.route_id, key);
+      if (feed.op) LINE_OP.set(key, feed.op(r, key));
       if (r.route_type === '11') {
         cfg.trolleySet.add(key); TROLLEYS.add(key);
         cfg.lineColors[key] = TROLLEY_GREEN;
@@ -426,6 +462,11 @@ async function processMode(cfg) {
       // feed names carry double spaces here and there — collapse for clean labels
       let name = (s.stop_name || '').replace(/\s+/g, ' ').trim();
       if (feed.titleCase) name = titleCase(name);
+      // the regional feed signs its city poles "Budapest, Újpest-Városkapu"
+      // while BKK signs the same pole bare — inside the city the prefix is on
+      // no stop flag, outside it the town name is the only thing telling one
+      // "vasútállomás" from the next, so it only goes where BKK also stops
+      if (feed.nameFix) name = feed.nameFix(name);
       const fix = STOP_FIX[feed.tag + ':' + s.stop_id];
       stopsById.set(feed.tag + ':' + s.stop_id, {
         name,
@@ -507,6 +548,30 @@ async function processMode(cfg) {
         r.shapeLatLon = r.shapeLatLon.slice(i0, i1 + 1);
       }
     }
+    // What each hundreds block actually serves, read off its own stops: the
+    // town is the part of a regional stop name before the comma ("Vác,
+    // autóbusz-állomás"), Budapest itself excluded because every block has it.
+    if (feed.op) {
+      const towns = new Map();
+      for (const r of feedReps) {
+        const g = LINE_OP.get(r.line);
+        if (!g || OP_NAME[g]) continue;
+        let c = towns.get(g);
+        if (!c) towns.set(g, (c = new Map()));
+        for (const st of r.stopSeq) {
+          const nm = stopsById.get(st.stopId)?.name || '';
+          const i = nm.indexOf(',');
+          if (i <= 0) continue;
+          const t = nm.slice(0, i).trim();
+          if (!t || t === 'Budapest') continue;
+          c.set(t, (c.get(t) || 0) + 1);
+        }
+      }
+      for (const [g, c] of towns) {
+        const top = [...c].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t]) => t);
+        OP_NAME[g] = `Volánbusz ${g.slice(1)}00–${g.slice(1)}99` + (top.length ? ` · ${top.join(' · ')}` : '');
+      }
+    }
     log(`feed ${feed.tag}: ${new Set(feedReps.map((r) => r.line)).size} lines, ${feedReps.length} reps` +
         (hasShapes ? '' : ' (no shapes — stop-sequence pseudo)'));
     reps.push(...feedReps);
@@ -526,7 +591,23 @@ async function processMode(cfg) {
     if (lon < lonMin) lonMin = lon; if (lon > lonMax) lonMax = lon;
   }
   const proj = makeProj((latMin + latMax) / 2, (lonMin + lonMax) / 2);
-  const osm = JSON.parse(readFileSync(join(ROOT, cfg.osmFile), 'utf8'));
+  // one extract, or a grid of tiles merged (the road network comes in 49 of
+  // them): a way on a tile seam is in both files, so ids are deduped
+  const osm = { elements: [] };
+  {
+    const seen = new Set();
+    for (const file of cfg.osmFiles || [cfg.osmFile]) {
+      const part = JSON.parse(readFileSync(join(ROOT, file), 'utf8'));
+      let added = 0;
+      for (const e of part.elements) {
+        const k = e.type + e.id;
+        if (seen.has(k)) continue;
+        seen.add(k); osm.elements.push(e); added++;
+      }
+      if (added !== part.elements.length) log(`OSM ${file}: ${part.elements.length} elements (${added} new)`);
+    }
+    log(`OSM: ${osm.elements.length} unique ways from ${(cfg.osmFiles || [cfg.osmFile]).length} file(s)`);
+  }
   // railKeep: this cfg sees only its own kind of rails (see MODES above);
   // railExtra admits single oddballs from other layers (the rack railway)
   if (cfg.railKeep) osm.elements = osm.elements.filter((e) => cfg.railKeep.has(e.tags?.railway) || (cfg.railExtra && cfg.railExtra(e)));
@@ -1623,7 +1704,11 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   bbox: [bLonMin, bLatMin, bLonMax, bLatMax],
   badgeBands: BADGE_BANDS,
   modes: MODES.map((m) => ({ mode: m.mode, label: m.label, color: m.color })),
-  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line) })),
+  // the panel groups its chip cloud by these: the operator, and inside
+  // Volánbusz the hundreds block that IS the region (see LINE_OP above)
+  ops: OP_NAME,
+  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line),
+    ...(LINE_OP.has(l.line) ? { op: LINE_OP.get(l.line) } : {}) })),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);
 

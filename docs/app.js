@@ -179,7 +179,7 @@ async function init() {
   map.addControl(new maplibregl.NavigationControl({ visualizePitch: false }), 'top-right');
   map.addControl(new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: true }, trackUserLocation: true, showUserHeading: true, fitBoundsOptions: { maxZoom: 15.5 } }), 'top-right');
   map.addControl(new maplibregl.ScaleControl({ maxWidth: 120 }), 'bottom-left');
-  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Timetables: BKK GTFS — BKK · MÁV-HÉV' }));
+  map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Timetables: BKK (BKK, MÁV-HÉV) · Volánbusz 300–899' }));
 
   const [meta] = await Promise.all([
     fetch('data/meta.json').then((r) => r.json()),
@@ -201,14 +201,52 @@ async function init() {
   map.resize();
 
   // Panel (English, minimal): legend + mode toggles + expandable clickable line list.
-  const nBus = meta.lines.filter((l) => l.mode === 'bus').length;
+  // The regional lines are BUSES and wear the bus colour — what tells them
+  // apart is the panel, not the ink. They are counted off their group, the
+  // one the pipeline read from the number block (v3…v8).
+  const isReg = (l) => typeof l.op === 'string' && l.op[0] === 'v';
+  const nReg = meta.lines.filter(isReg).length;
+  const nBus = meta.lines.filter((l) => l.mode === 'bus').length - nReg;
   const nMetro = meta.lines.filter((l) => l.mode === 'tram' && /^[MH]\d/.test(l.line)).length;
   const nTram = meta.lines.filter((l) => l.mode === 'tram').length - nMetro;
-  document.getElementById('count').textContent = `(${nBus} bus & trolleybus · ${nTram} tram · ${nMetro} metro & HÉV)`;
+  document.getElementById('count').textContent =
+    `(${nBus} BKK bus & trolleybus · ${nReg} regional · ${nTram} tram · ${nMetro} metro & HÉV)`;
   document.getElementById('stamp').textContent = new Date(meta.generatedAt).toLocaleDateString('en-GB');
-  document.getElementById('chips').innerHTML = meta.lines
-    .map((l) => `<button class="chip" data-line="${esc(l.line)}" style="background:${esc(l.color)}">${esc(l.line)}</button>`)
-    .join(' ');
+
+  // Eight hundred lines in one cloud is a wall of numbers, and the city's 100s
+  // sit next to Volánbusz's 300s with nothing to say which network a chip
+  // belongs to now that both are navy. So the list is grouped the way the
+  // Berlin panel groups its Verbund: a heading per operator, and inside
+  // Volánbusz a heading per hundreds block — which is how the region is
+  // numbered. Both the block and the towns in its heading come from the feed
+  // (meta.ops, written by the pipeline).
+  const OP_TITLE = new Map(Object.entries(meta.ops || {}));
+  const OP_FIRST = ['bkk', 'hev'];
+  const CATS = [['bus', 'Buses'], ['tram', 'Trams'], ['metro', 'Metro & HÉV']];
+  const catOf = (l) => (l.mode === 'tram' && /^[MH]\d/.test(l.line) ? 'metro' : l.mode);
+  const chipHtml = (l) => `<button class="chip" data-line="${esc(l.line)}" `
+    + `style="background:${esc(l.color)}">${esc(l.line)}</button>`;
+  const paintChips = () => {
+    const bucket = new Map();
+    for (const l of meta.lines) {
+      const k = l.op || 'other';
+      if (!bucket.has(k)) bucket.set(k, []);
+      bucket.get(k).push(l);
+    }
+    const order = [...OP_FIRST.filter((k) => bucket.has(k)),
+      ...[...bucket.keys()].filter((k) => !OP_FIRST.includes(k)).sort()];
+    const section = (key) => {
+      const ls = bucket.get(key);
+      if (!ls || !ls.length) return '';
+      const groups = CATS.map(([c, title]) => [title, ls.filter((l) => catOf(l) === c)])
+        .filter(([, cl]) => cl.length);
+      return `<h3 class="chip-head">${esc(OP_TITLE.get(key) || key)} <span class="n">${ls.length}</span></h3>`
+        + groups.map(([title, cl]) => (groups.length > 1 ? `<h4 class="chip-sub">${esc(title)}</h4>` : '')
+          + `<div class="chip-cloud">${cl.map(chipHtml).join(' ')}</div>`).join('');
+    };
+    document.getElementById('chips').innerHTML = order.map(section).join('');
+  };
+  paintChips();
 
   // Line layers go below the base style labels (street names stay readable).
   const firstSymbol = map.getStyle().layers.find((l) => l.type === 'symbol')?.id;
@@ -1160,7 +1198,7 @@ async function init() {
       const fs = Math.max(16, Math.round(out.width / 130));
       ctx.font = `${fs}px sans-serif`;
       ctx.textBaseline = 'bottom';
-      const txt = '© OpenStreetMap contributors · OpenFreeMap · GTFS: BKK (BKK, MÁV-HÉV)';
+      const txt = '© OpenStreetMap contributors · OpenFreeMap · Timetables: BKK (BKK, MÁV-HÉV) · Volánbusz 300–899';
       const tw = ctx.measureText(txt).width;
       ctx.fillStyle = 'rgba(255,255,255,0.82)';
       ctx.fillRect(out.width - tw - fs, out.height - fs * 1.7, tw + fs, fs * 1.7);
@@ -1404,7 +1442,7 @@ async function init() {
             const fs = Math.max(16, Math.round(Wf / 500));
             cx.font = `${fs}px sans-serif`;
             cx.textBaseline = 'bottom';
-            const txt = '© OpenStreetMap contributors · OpenFreeMap · GTFS: BKK (BKK, MÁV-HÉV)';
+            const txt = '© OpenStreetMap contributors · OpenFreeMap · Timetables: BKK (BKK, MÁV-HÉV) · Volánbusz 300–899';
             const tw = Math.min(cx.measureText(txt).width, wpx - fs);
             cx.fillStyle = 'rgba(255,255,255,0.82)';
             cx.fillRect(wpx - tw - fs, hpx - fs * 1.7, tw + fs, fs * 1.7);
@@ -1530,10 +1568,62 @@ async function init() {
         g.pts.push(f.geometry.coordinates);
         for (const l of p.arr) g.lines.add(l);
       }
+      // One physical interchange, two spellings. BKK signs a pole "Kálvin tér"
+      // and its metro entrance "Kálvin tér M"; the regional feed writes the
+      // same kerb "Újpest-Városkapu (Váci út)" where BKK writes
+      // "Újpest-Városkapu". Grouped by name alone those are separate stops and
+      // the planner cannot change there — which on this map means it cannot
+      // get from the city to a regional line at all. So groups whose names
+      // agree once the "M" and the parenthesis are taken off, and whose poles
+      // stand within 150 m, become one stop under the fuller name.
+      const baseName = (n) => norm(n).replace(/\([^)]*\)/g, ' ').replace(/\bm\b/g, ' ')
+        .replace(/[\s,]+/g, ' ').trim();
+      // The names have to AGREE, not just stand close: one base is the other,
+      // or begins it at a word boundary — "Újpest-Városkapu" and
+      // "Újpest-Városkapu XIII. kerület" are one kerb, "Orczy tér" and
+      // "Orczy út" 104 m apart are not.
+      const all = [];
+      for (const g of groups.values()) {
+        g.c = g.pts.reduce((a, b) => [a[0] + b[0], a[1] + b[1]], [0, 0]).map((v) => v / g.pts.length);
+        g.cm = mx(g.c);
+        g.base = baseName(g.name);
+        if (g.base) all.push(g);
+      }
+      const agree = (a, b) => a === b
+        || (a.length > b.length ? a.startsWith(b) && /[\s(,.]/.test(a[b.length])
+          : b.startsWith(a) && /[\s(,.]/.test(b[a.length]));
+      // longest name first: the fullest spelling hosts, and the planner
+      // resolves what the user types by prefix, so the short query still hits
+      all.sort((a, b) => b.name.length - a.name.length);
+      const cell = 150, grid = new Map();
+      const gk = (g) => Math.round(g.cm[0] / cell) + ':' + Math.round(g.cm[1] / cell);
+      let merged = 0;
+      for (const g of all) {
+        const kx = Math.round(g.cm[0] / cell), ky = Math.round(g.cm[1] / cell);
+        let host = null;
+        for (let dx = -1; dx <= 1 && !host; dx++) {
+          for (let dy = -1; dy <= 1 && !host; dy++) {
+            for (const h of grid.get((kx + dx) + ':' + (ky + dy)) || []) {
+              if (Math.hypot(h.cm[0] - g.cm[0], h.cm[1] - g.cm[1]) <= 150 && agree(h.base, g.base)) { host = h; break; }
+            }
+          }
+        }
+        if (host) {
+          host.pts.push(...g.pts);
+          for (const l of g.lines) host.lines.add(l);
+          groups.delete(g.name);
+          merged++;
+          continue;
+        }
+        const k = gk(g);
+        if (!grid.has(k)) grid.set(k, []);
+        grid.get(k).push(g);
+      }
       for (const g of groups.values()) {
         g.c = g.pts.reduce((a, b) => [a[0] + b[0], a[1] + b[1]], [0, 0]).map((v) => v / g.pts.length);
         g.cm = mx(g.c);
       }
+      if (merged) console.log(`journey planner: ${merged} stop groups merged into their twin spelling`);
       // per line×direction: polyline + the served groups ordered along it;
       // groups >65 m off the polyline ride a VARIANT of the line, not this
       // dominant path — excluded, which is exactly right for routing
