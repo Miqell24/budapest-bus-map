@@ -702,85 +702,6 @@
       "rank": 0
     },
     {
-      "line": "972",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Orczy tér",
-          "headsign": "Orczy tér",
-          "variants": 2,
-          "tripCount": 5,
-          "stops": 11,
-          "lengthKm": 3.48,
-          "stats": {
-            "observations": 185,
-            "matched": 185,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.4253222295162773,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 0
-    },
-    {
-      "line": "980",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Örs vezér tere M H",
-          "variants": 1,
-          "tripCount": 32,
-          "stops": 26,
-          "lengthKm": 10.04,
-          "stats": {
-            "observations": 525,
-            "matched": 525,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.4804026183091387,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Deák Ferenc tér M",
-          "variants": 1,
-          "tripCount": 32,
-          "stops": 30,
-          "lengthKm": 10.54,
-          "stats": {
-            "observations": 543,
-            "matched": 543,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.29222458317010236,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 0
-    },
-    {
       "line": "N7274",
       "mode": "bus",
       "color": "#149a3f",
@@ -13792,2035 +13713,6 @@
       "rank": 1
     },
     {
-      "line": "901",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Bécsi út / Vörösvári út",
-          "variants": 4,
-          "tripCount": 42,
-          "stops": 40,
-          "lengthKm": 20.03,
-          "stats": {
-            "observations": 1001,
-            "matched": 1001,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.1874777102396411,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Kelenföld vasútállomás M",
-          "variants": 2,
-          "tripCount": 48,
-          "stops": 39,
-          "lengthKm": 20.92,
-          "stats": {
-            "observations": 1013,
-            "matched": 1013,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.23423367424985925,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "905",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Máriaremete",
-          "variants": 1,
-          "tripCount": 38,
-          "stops": 69,
-          "lengthKm": 22.35,
-          "stats": {
-            "observations": 1146,
-            "matched": 1146,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.28524549984068087,
-            "roundaboutSegs": 11,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Rákospalota",
-          "variants": 3,
-          "tripCount": 49,
-          "stops": 56,
-          "lengthKm": 23.58,
-          "stats": {
-            "observations": 1225,
-            "matched": 1225,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.322265575480205,
-            "roundaboutSegs": 3,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "907",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Örs vezér tere M H",
-          "variants": 1,
-          "tripCount": 36,
-          "stops": 32,
-          "lengthKm": 13.51,
-          "stats": {
-            "observations": 705,
-            "matched": 705,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3626036290950653,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Kelenföld vasútáll. M",
-          "variants": 2,
-          "tripCount": 32,
-          "stops": 33,
-          "lengthKm": 14.54,
-          "stats": {
-            "observations": 744,
-            "matched": 744,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.31205774204588904,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "908",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Rákoscsaba-Újtelep",
-          "variants": 5,
-          "tripCount": 20,
-          "stops": 95,
-          "lengthKm": 42.02,
-          "stats": {
-            "observations": 2145,
-            "matched": 2145,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2971564373055662,
-            "roundaboutSegs": 8,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Móricz Zsigmond körtér M",
-          "variants": 6,
-          "tripCount": 18,
-          "stops": 95,
-          "lengthKm": 41.69,
-          "stats": {
-            "observations": 2103,
-            "matched": 2103,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2129967902741139,
-            "roundaboutSegs": 7,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "909",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Örs vezér tere M H",
-          "variants": 1,
-          "tripCount": 45,
-          "stops": 38,
-          "lengthKm": 18.04,
-          "stats": {
-            "observations": 936,
-            "matched": 936,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.33061092779930423,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Óbuda, Bogdáni út",
-          "variants": 1,
-          "tripCount": 50,
-          "stops": 37,
-          "lengthKm": 17.36,
-          "stats": {
-            "observations": 893,
-            "matched": 893,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.19782850764267748,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "910",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Zugló vasútállomás",
-          "variants": 2,
-          "tripCount": 8,
-          "stops": 42,
-          "lengthKm": 15.71,
-          "stats": {
-            "observations": 820,
-            "matched": 820,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.33308719211191723,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Csillebérc",
-          "variants": 2,
-          "tripCount": 8,
-          "stops": 42,
-          "lengthKm": 16.23,
-          "stats": {
-            "observations": 835,
-            "matched": 835,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.23477072657630343,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "912",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Mártonhegy",
-          "variants": 5,
-          "tripCount": 7,
-          "stops": 49,
-          "lengthKm": 12.5,
-          "stats": {
-            "observations": 645,
-            "matched": 645,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.25507497591807193,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Csáktornya park",
-          "variants": 3,
-          "tripCount": 10,
-          "stops": 27,
-          "lengthKm": 11.94,
-          "stats": {
-            "observations": 620,
-            "matched": 620,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2080833146316701,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "914",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Dél-pesti autóbuszgarázs",
-          "variants": 4,
-          "tripCount": 40,
-          "stops": 66,
-          "lengthKm": 29.27,
-          "stats": {
-            "observations": 1516,
-            "matched": 1516,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3596577470011757,
-            "roundaboutSegs": 11,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Káposztásmegyer",
-          "variants": 5,
-          "tripCount": 40,
-          "stops": 67,
-          "lengthKm": 28.92,
-          "stats": {
-            "observations": 1491,
-            "matched": 1491,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2824292520035886,
-            "roundaboutSegs": 23,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "917",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Békásmegyer H",
-          "variants": 4,
-          "tripCount": 15,
-          "stops": 46,
-          "lengthKm": 18.14,
-          "stats": {
-            "observations": 938,
-            "matched": 938,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.22395042852397906,
-            "roundaboutSegs": 4,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Móricz Zsigmond körtér M",
-          "variants": 5,
-          "tripCount": 24,
-          "stops": 46,
-          "lengthKm": 18.31,
-          "stats": {
-            "observations": 946,
-            "matched": 946,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.1892078270332816,
-            "roundaboutSegs": 7,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "918",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Óbudai autóbuszgarázs",
-          "variants": 3,
-          "tripCount": 21,
-          "stops": 38,
-          "lengthKm": 17.37,
-          "stats": {
-            "observations": 895,
-            "matched": 895,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.35346815992207903,
-            "roundaboutSegs": 16,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Közvágóhíd H",
-          "variants": 3,
-          "tripCount": 14,
-          "stops": 35,
-          "lengthKm": 17.54,
-          "stats": {
-            "observations": 866,
-            "matched": 866,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3238264507113721,
-            "roundaboutSegs": 15,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "922",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Törökbálint",
-          "variants": 10,
-          "tripCount": 3,
-          "stops": 63,
-          "lengthKm": 28.72,
-          "stats": {
-            "observations": 1484,
-            "matched": 1484,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2121348880466378,
-            "roundaboutSegs": 34,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Budakeszi",
-          "variants": 7,
-          "tripCount": 16,
-          "stops": 66,
-          "lengthKm": 28.54,
-          "stats": {
-            "observations": 1455,
-            "matched": 1455,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.20170029156738262,
-            "roundaboutSegs": 43,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "923",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Dél-pesti autóbuszgarázs",
-          "variants": 2,
-          "tripCount": 71,
-          "stops": 64,
-          "lengthKm": 30.96,
-          "stats": {
-            "observations": 1580,
-            "matched": 1580,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.19860018908760682,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Békásmegyer H",
-          "variants": 3,
-          "tripCount": 62,
-          "stops": 66,
-          "lengthKm": 31.48,
-          "stats": {
-            "observations": 1596,
-            "matched": 1596,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.1780058693287478,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "930",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Megyer, Szondi utca",
-          "variants": 1,
-          "tripCount": 8,
-          "stops": 13,
-          "lengthKm": 4.8,
-          "stats": {
-            "observations": 248,
-            "matched": 248,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.34168431355086365,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Újpest-központ M",
-          "variants": 1,
-          "tripCount": 8,
-          "stops": 10,
-          "lengthKm": 3.97,
-          "stats": {
-            "observations": 189,
-            "matched": 189,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.4431248468002415,
-            "roundaboutSegs": 10,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "931",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Árpádföld",
-          "variants": 7,
-          "tripCount": 17,
-          "stops": 47,
-          "lengthKm": 20.01,
-          "stats": {
-            "observations": 1010,
-            "matched": 1010,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.4256374920157831,
-            "roundaboutSegs": 9,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Pasaréti tér",
-          "variants": 5,
-          "tripCount": 21,
-          "stops": 68,
-          "lengthKm": 28.59,
-          "stats": {
-            "observations": 1419,
-            "matched": 1419,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.22664560005996662,
-            "roundaboutSegs": 11,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "933",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Nagytétény, ipartelep",
-          "variants": 1,
-          "tripCount": 20,
-          "stops": 59,
-          "lengthKm": 26.98,
-          "stats": {
-            "observations": 1385,
-            "matched": 1385,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2534973402738911,
-            "roundaboutSegs": 31,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Újpalota, Nyírpalota út",
-          "variants": 4,
-          "tripCount": 16,
-          "stops": 58,
-          "lengthKm": 26.54,
-          "stats": {
-            "observations": 1377,
-            "matched": 1377,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.32677795880175636,
-            "roundaboutSegs": 34,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "934",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Pesterzsébet",
-          "variants": 2,
-          "tripCount": 37,
-          "stops": 56,
-          "lengthKm": 24.97,
-          "stats": {
-            "observations": 1290,
-            "matched": 1290,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.21126976236416795,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Békásmegyer",
-          "variants": 2,
-          "tripCount": 37,
-          "stops": 56,
-          "lengthKm": 25.21,
-          "stats": {
-            "observations": 1300,
-            "matched": 1300,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.25482784376645534,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "937",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Tábor-hegy",
-          "variants": 1,
-          "tripCount": 3,
-          "stops": 13,
-          "lengthKm": 4.1,
-          "stats": {
-            "observations": 211,
-            "matched": 211,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.21806548971336004,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Szentlélek tér H",
-          "variants": 1,
-          "tripCount": 3,
-          "stops": 20,
-          "lengthKm": 6.2,
-          "stats": {
-            "observations": 324,
-            "matched": 324,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.1466739154584146,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "938",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Szigetszentmiklós",
-          "variants": 1,
-          "tripCount": 16,
-          "stops": 22,
-          "lengthKm": 11.85,
-          "stats": {
-            "observations": 546,
-            "matched": 546,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.21743928060770853,
-            "roundaboutSegs": 19,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Csepel, Szent Imre tér",
-          "variants": 3,
-          "tripCount": 6,
-          "stops": 34,
-          "lengthKm": 19.4,
-          "stats": {
-            "observations": 931,
-            "matched": 931,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2788494569549234,
-            "roundaboutSegs": 48,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "940",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Budaörsi lakótelep",
-          "variants": 5,
-          "tripCount": 4,
-          "stops": 23,
-          "lengthKm": 11.06,
-          "stats": {
-            "observations": 567,
-            "matched": 567,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.12364411905380517,
-            "roundaboutSegs": 34,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Kamaraerdő",
-          "variants": 2,
-          "tripCount": 6,
-          "stops": 17,
-          "lengthKm": 6.3,
-          "stats": {
-            "observations": 332,
-            "matched": 332,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.28159192165401475,
-            "roundaboutSegs": 65,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "941",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Budatétény",
-          "variants": 3,
-          "tripCount": 18,
-          "stops": 81,
-          "lengthKm": 35.79,
-          "stats": {
-            "observations": 1841,
-            "matched": 1841,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2646458993138337,
-            "roundaboutSegs": 56,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Rákosszentmihály vá.",
-          "variants": 2,
-          "tripCount": 24,
-          "stops": 90,
-          "lengthKm": 36.94,
-          "stats": {
-            "observations": 1842,
-            "matched": 1842,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.24651180968215505,
-            "roundaboutSegs": 49,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "943",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Szentendre H",
-          "variants": 3,
-          "tripCount": 2,
-          "stops": 37,
-          "lengthKm": 26.14,
-          "stats": {
-            "observations": 1305,
-            "matched": 1305,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.1543958179056884,
-            "roundaboutSegs": 10,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Óbudai autóbuszgarázsÓbudai autóbuszgarázs",
-          "variants": 2,
-          "tripCount": 2,
-          "stops": 18,
-          "lengthKm": 15.68,
-          "stats": {
-            "observations": 768,
-            "matched": 768,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.13532198472736146,
-            "roundaboutSegs": 24,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "946",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Dél-pesti autóbuszgarázs",
-          "variants": 4,
-          "tripCount": 12,
-          "stops": 64,
-          "lengthKm": 27.74,
-          "stats": {
-            "observations": 1411,
-            "matched": 1411,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.18797862231306503,
-            "roundaboutSegs": 32,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Újpalota, Nyírpalota út",
-          "variants": 2,
-          "tripCount": 16,
-          "stops": 67,
-          "lengthKm": 28.07,
-          "stats": {
-            "observations": 1424,
-            "matched": 1424,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.11728053745546745,
-            "roundaboutSegs": 48,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "948",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Csepel-Királyerdő",
-          "variants": 2,
-          "tripCount": 34,
-          "stops": 36,
-          "lengthKm": 16.7,
-          "stats": {
-            "observations": 854,
-            "matched": 854,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.12549955326319734,
-            "roundaboutSegs": 14,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Dél-pesti autóbuszgarázs",
-          "variants": 2,
-          "tripCount": 38,
-          "stops": 56,
-          "lengthKm": 25.92,
-          "stats": {
-            "observations": 1330,
-            "matched": 1330,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.12337375165687212,
-            "roundaboutSegs": 14,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "950",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Pestszentimre vá.",
-          "variants": 4,
-          "tripCount": 14,
-          "stops": 74,
-          "lengthKm": 34,
-          "stats": {
-            "observations": 1761,
-            "matched": 1761,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.44246408530297154,
-            "roundaboutSegs": 3,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Újpalota",
-          "variants": 7,
-          "tripCount": 18,
-          "stops": 73,
-          "lengthKm": 35.16,
-          "stats": {
-            "observations": 1811,
-            "matched": 1811,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.4032480400636189,
-            "roundaboutSegs": 15,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "955",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Fácános tér",
-          "variants": 1,
-          "tripCount": 10,
-          "stops": 17,
-          "lengthKm": 5.18,
-          "stats": {
-            "observations": 265,
-            "matched": 265,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.14778781977641134,
-            "roundaboutSegs": 18,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Széll Kálmán tér M",
-          "variants": 1,
-          "tripCount": 6,
-          "stops": 18,
-          "lengthKm": 5.41,
-          "stats": {
-            "observations": 284,
-            "matched": 284,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.35692882950001786,
-            "roundaboutSegs": 28,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "958",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Arany János utcai ltp.",
-          "variants": 1,
-          "tripCount": 16,
-          "stops": 18,
-          "lengthKm": 8.44,
-          "stats": {
-            "observations": 412,
-            "matched": 412,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.07617911661139092,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Boráros tér H",
-          "variants": 3,
-          "tripCount": 12,
-          "stops": 43,
-          "lengthKm": 17.46,
-          "stats": {
-            "observations": 897,
-            "matched": 897,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.11707214345139441,
-            "roundaboutSegs": 3,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "960",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Harsánylejtő",
-          "variants": 1,
-          "tripCount": 2,
-          "stops": 15,
-          "lengthKm": 5.63,
-          "stats": {
-            "observations": 291,
-            "matched": 291,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.24311937646480455,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Szentlélek tér H",
-          "variants": 1,
-          "tripCount": 2,
-          "stops": 15,
-          "lengthKm": 5.91,
-          "stats": {
-            "observations": 309,
-            "matched": 309,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.34136998290126946,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "963",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Nagykovácsi, Tisza I. tér",
-          "variants": 1,
-          "tripCount": 4,
-          "stops": 16,
-          "lengthKm": 8.62,
-          "stats": {
-            "observations": 423,
-            "matched": 423,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.22278719427110705,
-            "roundaboutSegs": 8,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Hűvösvölgy",
-          "variants": 1,
-          "tripCount": 5,
-          "stops": 17,
-          "lengthKm": 8.73,
-          "stats": {
-            "observations": 429,
-            "matched": 429,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.20943860957524663,
-            "roundaboutSegs": 23,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "964",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Solymár, PEMÜ",
-          "variants": 2,
-          "tripCount": 4,
-          "stops": 27,
-          "lengthKm": 12.52,
-          "stats": {
-            "observations": 651,
-            "matched": 651,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.27955157017165616,
-            "roundaboutSegs": 27,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Hűvösvölgy",
-          "variants": 1,
-          "tripCount": 5,
-          "stops": 23,
-          "lengthKm": 9.79,
-          "stats": {
-            "observations": 506,
-            "matched": 506,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.24367404842375928,
-            "roundaboutSegs": 1,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "966",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Millenniumtelep H",
-          "variants": 3,
-          "tripCount": 8,
-          "stops": 69,
-          "lengthKm": 28.49,
-          "stats": {
-            "observations": 1469,
-            "matched": 1469,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2397519921510896,
-            "roundaboutSegs": 67,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Kolosy tér",
-          "variants": 3,
-          "tripCount": 7,
-          "stops": 65,
-          "lengthKm": 27.96,
-          "stats": {
-            "observations": 1436,
-            "matched": 1436,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.21669129949031327,
-            "roundaboutSegs": 40,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "969",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Pécel",
-          "variants": 2,
-          "tripCount": 7,
-          "stops": 55,
-          "lengthKm": 26.16,
-          "stats": {
-            "observations": 1313,
-            "matched": 1313,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.4681309309521716,
-            "roundaboutSegs": 33,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Deák Ferenc tér M",
-          "variants": 2,
-          "tripCount": 7,
-          "stops": 54,
-          "lengthKm": 25.69,
-          "stats": {
-            "observations": 1282,
-            "matched": 1282,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3075276281431069,
-            "roundaboutSegs": 28,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "979",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Csepel, Csillagtelep",
-          "variants": 2,
-          "tripCount": 59,
-          "stops": 34,
-          "lengthKm": 14.82,
-          "stats": {
-            "observations": 747,
-            "matched": 747,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.6186492815660783,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Deák Ferenc tér M",
-          "variants": 1,
-          "tripCount": 47,
-          "stops": 25,
-          "lengthKm": 11.65,
-          "stats": {
-            "observations": 581,
-            "matched": 581,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3682717633209351,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "983",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "Pestszentimre",
-          "headsign": "Pestszentimre",
-          "variants": 1,
-          "tripCount": 12,
-          "stops": 32,
-          "lengthKm": 13.8,
-          "stats": {
-            "observations": 691,
-            "matched": 691,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.16832461940679536,
-            "roundaboutSegs": 3,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "984",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Kőbánya alsó vasútáll.",
-          "variants": 4,
-          "tripCount": 12,
-          "stops": 66,
-          "lengthKm": 30.71,
-          "stats": {
-            "observations": 1582,
-            "matched": 1582,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.330265682109464,
-            "roundaboutSegs": 48,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Káposztásmegyer",
-          "variants": 6,
-          "tripCount": 2,
-          "stops": 72,
-          "lengthKm": 33.67,
-          "stats": {
-            "observations": 1732,
-            "matched": 1732,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2252820246701788,
-            "roundaboutSegs": 36,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "985",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Rákospalota",
-          "variants": 4,
-          "tripCount": 17,
-          "stops": 66,
-          "lengthKm": 32.43,
-          "stats": {
-            "observations": 1672,
-            "matched": 1672,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2680889758972917,
-            "roundaboutSegs": 19,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Kőbánya alsó vasútáll.",
-          "variants": 5,
-          "tripCount": 12,
-          "stops": 55,
-          "lengthKm": 27.76,
-          "stats": {
-            "observations": 1434,
-            "matched": 1434,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3888218078757036,
-            "roundaboutSegs": 32,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "987",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Kőérberek",
-          "variants": 1,
-          "tripCount": 16,
-          "stops": 6,
-          "lengthKm": 3.88,
-          "stats": {
-            "observations": 198,
-            "matched": 198,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.0900485411054194,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Kelenföld vasútállomás M",
-          "variants": 1,
-          "tripCount": 17,
-          "stops": 4,
-          "lengthKm": 3.1,
-          "stats": {
-            "observations": 158,
-            "matched": 158,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.10927559855584743,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "988",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Törökbálint",
-          "variants": 12,
-          "tripCount": 10,
-          "stops": 98,
-          "lengthKm": 45.27,
-          "stats": {
-            "observations": 2343,
-            "matched": 2343,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.20295013659057057,
-            "roundaboutSegs": 136,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Budakeszi",
-          "variants": 5,
-          "tripCount": 6,
-          "stops": 69,
-          "lengthKm": 30.57,
-          "stats": {
-            "observations": 1560,
-            "matched": 1560,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.20939712202236765,
-            "roundaboutSegs": 40,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "992",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Gödöllő H",
-          "variants": 6,
-          "tripCount": 4,
-          "stops": 74,
-          "lengthKm": 48.12,
-          "stats": {
-            "observations": 2326,
-            "matched": 2326,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.24469879766678773,
-            "roundaboutSegs": 33,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Deák Ferenc tér M",
-          "variants": 1,
-          "tripCount": 5,
-          "stops": 72,
-          "lengthKm": 47.92,
-          "stats": {
-            "observations": 2319,
-            "matched": 2319,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.21879920529349106,
-            "roundaboutSegs": 64,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "994",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Gyál",
-          "variants": 1,
-          "tripCount": 18,
-          "stops": 31,
-          "lengthKm": 13.18,
-          "stats": {
-            "observations": 646,
-            "matched": 646,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.32826776332719276,
-            "roundaboutSegs": 10,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Határ út M",
-          "variants": 2,
-          "tripCount": 15,
-          "stops": 47,
-          "lengthKm": 21.88,
-          "stats": {
-            "observations": 1059,
-            "matched": 1059,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2778501993206342,
-            "roundaboutSegs": 10,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "995",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Rákoscsaba",
-          "variants": 1,
-          "tripCount": 16,
-          "stops": 58,
-          "lengthKm": 26.4,
-          "stats": {
-            "observations": 1307,
-            "matched": 1307,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2268744374080631,
-            "roundaboutSegs": 27,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Puskás Ferenc Stadion M",
-          "variants": 1,
-          "tripCount": 16,
-          "stops": 41,
-          "lengthKm": 19.02,
-          "stats": {
-            "observations": 911,
-            "matched": 911,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.11036413648802751,
-            "roundaboutSegs": 26,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "line": "997",
-      "mode": "bus",
-      "color": "#000000",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Rákoskert sugárút",
-          "variants": 2,
-          "tripCount": 17,
-          "stops": 58,
-          "lengthKm": 16.85,
-          "stats": {
-            "observations": 833,
-            "matched": 833,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.48801263904093317,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Deák Ferenc tér M",
-          "variants": 2,
-          "tripCount": 22,
-          "stops": 34,
-          "lengthKm": 16.48,
-          "stats": {
-            "observations": 811,
-            "matched": 811,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2582068241479693,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 2
-    },
-    {
       "line": "1",
       "mode": "tram",
       "color": "#d6212b",
@@ -18598,6 +16490,2114 @@
         }
       ],
       "rank": 1
+    },
+    {
+      "line": "972",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Orczy tér",
+          "headsign": "Orczy tér",
+          "variants": 2,
+          "tripCount": 5,
+          "stops": 11,
+          "lengthKm": 3.48,
+          "stats": {
+            "observations": 185,
+            "matched": 185,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.4253222295162773,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 0
+    },
+    {
+      "line": "980",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Örs vezér tere M H",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 26,
+          "lengthKm": 10.04,
+          "stats": {
+            "observations": 525,
+            "matched": 525,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.4804026183091387,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Deák Ferenc tér M",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 30,
+          "lengthKm": 10.54,
+          "stats": {
+            "observations": 543,
+            "matched": 543,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.29222458317010236,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 0
+    },
+    {
+      "line": "901",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bécsi út / Vörösvári út",
+          "variants": 4,
+          "tripCount": 42,
+          "stops": 40,
+          "lengthKm": 20.03,
+          "stats": {
+            "observations": 1001,
+            "matched": 1001,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.1874777102396411,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kelenföld vasútállomás M",
+          "variants": 2,
+          "tripCount": 48,
+          "stops": 39,
+          "lengthKm": 20.92,
+          "stats": {
+            "observations": 1013,
+            "matched": 1013,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.23423367424985925,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "905",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Máriaremete",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 69,
+          "lengthKm": 22.35,
+          "stats": {
+            "observations": 1146,
+            "matched": 1146,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.28524549984068087,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rákospalota",
+          "variants": 3,
+          "tripCount": 49,
+          "stops": 56,
+          "lengthKm": 23.58,
+          "stats": {
+            "observations": 1225,
+            "matched": 1225,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.322265575480205,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "907",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Örs vezér tere M H",
+          "variants": 1,
+          "tripCount": 36,
+          "stops": 32,
+          "lengthKm": 13.51,
+          "stats": {
+            "observations": 705,
+            "matched": 705,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.3626036290950653,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kelenföld vasútáll. M",
+          "variants": 2,
+          "tripCount": 32,
+          "stops": 33,
+          "lengthKm": 14.54,
+          "stats": {
+            "observations": 744,
+            "matched": 744,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.31205774204588904,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "908",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rákoscsaba-Újtelep",
+          "variants": 5,
+          "tripCount": 20,
+          "stops": 95,
+          "lengthKm": 42.02,
+          "stats": {
+            "observations": 2145,
+            "matched": 2145,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2971564373055662,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Móricz Zsigmond körtér M",
+          "variants": 6,
+          "tripCount": 18,
+          "stops": 95,
+          "lengthKm": 41.69,
+          "stats": {
+            "observations": 2103,
+            "matched": 2103,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2129967902741139,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "909",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Örs vezér tere M H",
+          "variants": 1,
+          "tripCount": 45,
+          "stops": 38,
+          "lengthKm": 18.04,
+          "stats": {
+            "observations": 936,
+            "matched": 936,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.33061092779930423,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Óbuda, Bogdáni út",
+          "variants": 1,
+          "tripCount": 50,
+          "stops": 37,
+          "lengthKm": 17.36,
+          "stats": {
+            "observations": 893,
+            "matched": 893,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.19782850764267748,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "910",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Zugló vasútállomás",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 42,
+          "lengthKm": 15.71,
+          "stats": {
+            "observations": 820,
+            "matched": 820,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.33308719211191723,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Csillebérc",
+          "variants": 2,
+          "tripCount": 8,
+          "stops": 42,
+          "lengthKm": 16.23,
+          "stats": {
+            "observations": 835,
+            "matched": 835,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.23477072657630343,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "912",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Mártonhegy",
+          "variants": 5,
+          "tripCount": 7,
+          "stops": 49,
+          "lengthKm": 12.5,
+          "stats": {
+            "observations": 645,
+            "matched": 645,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.25507497591807193,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Csáktornya park",
+          "variants": 3,
+          "tripCount": 10,
+          "stops": 27,
+          "lengthKm": 11.94,
+          "stats": {
+            "observations": 620,
+            "matched": 620,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2080833146316701,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "914",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dél-pesti autóbuszgarázs",
+          "variants": 4,
+          "tripCount": 40,
+          "stops": 66,
+          "lengthKm": 29.27,
+          "stats": {
+            "observations": 1516,
+            "matched": 1516,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.3596577470011757,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Káposztásmegyer",
+          "variants": 5,
+          "tripCount": 40,
+          "stops": 67,
+          "lengthKm": 28.92,
+          "stats": {
+            "observations": 1491,
+            "matched": 1491,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2824292520035886,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "917",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Békásmegyer H",
+          "variants": 4,
+          "tripCount": 15,
+          "stops": 46,
+          "lengthKm": 18.14,
+          "stats": {
+            "observations": 938,
+            "matched": 938,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.22395042852397906,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Móricz Zsigmond körtér M",
+          "variants": 5,
+          "tripCount": 24,
+          "stops": 46,
+          "lengthKm": 18.31,
+          "stats": {
+            "observations": 946,
+            "matched": 946,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.1892078270332816,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "918",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Óbudai autóbuszgarázs",
+          "variants": 3,
+          "tripCount": 21,
+          "stops": 38,
+          "lengthKm": 17.37,
+          "stats": {
+            "observations": 895,
+            "matched": 895,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.35346815992207903,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Közvágóhíd H",
+          "variants": 3,
+          "tripCount": 14,
+          "stops": 35,
+          "lengthKm": 17.54,
+          "stats": {
+            "observations": 866,
+            "matched": 866,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.3238264507113721,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "922",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Törökbálint",
+          "variants": 10,
+          "tripCount": 3,
+          "stops": 63,
+          "lengthKm": 28.72,
+          "stats": {
+            "observations": 1484,
+            "matched": 1484,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2121348880466378,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Budakeszi",
+          "variants": 7,
+          "tripCount": 16,
+          "stops": 66,
+          "lengthKm": 28.54,
+          "stats": {
+            "observations": 1455,
+            "matched": 1455,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.20170029156738262,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "923",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dél-pesti autóbuszgarázs",
+          "variants": 2,
+          "tripCount": 71,
+          "stops": 64,
+          "lengthKm": 30.96,
+          "stats": {
+            "observations": 1580,
+            "matched": 1580,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.19860018908760682,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Békásmegyer H",
+          "variants": 3,
+          "tripCount": 62,
+          "stops": 66,
+          "lengthKm": 31.48,
+          "stats": {
+            "observations": 1596,
+            "matched": 1596,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.1780058693287478,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "930",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Megyer, Szondi utca",
+          "variants": 1,
+          "tripCount": 8,
+          "stops": 13,
+          "lengthKm": 4.8,
+          "stats": {
+            "observations": 248,
+            "matched": 248,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.34168431355086365,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Újpest-központ M",
+          "variants": 1,
+          "tripCount": 8,
+          "stops": 10,
+          "lengthKm": 3.97,
+          "stats": {
+            "observations": 189,
+            "matched": 189,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.4431248468002415,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "931",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Árpádföld",
+          "variants": 7,
+          "tripCount": 17,
+          "stops": 47,
+          "lengthKm": 20.01,
+          "stats": {
+            "observations": 1010,
+            "matched": 1010,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.4256374920157831,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Pasaréti tér",
+          "variants": 5,
+          "tripCount": 21,
+          "stops": 68,
+          "lengthKm": 28.59,
+          "stats": {
+            "observations": 1419,
+            "matched": 1419,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.22664560005996662,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "933",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nagytétény, ipartelep",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 59,
+          "lengthKm": 26.98,
+          "stats": {
+            "observations": 1385,
+            "matched": 1385,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2534973402738911,
+            "roundaboutSegs": 31,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Újpalota, Nyírpalota út",
+          "variants": 4,
+          "tripCount": 16,
+          "stops": 58,
+          "lengthKm": 26.54,
+          "stats": {
+            "observations": 1377,
+            "matched": 1377,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.32677795880175636,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "934",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Pesterzsébet",
+          "variants": 2,
+          "tripCount": 37,
+          "stops": 56,
+          "lengthKm": 24.97,
+          "stats": {
+            "observations": 1290,
+            "matched": 1290,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.21126976236416795,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Békásmegyer",
+          "variants": 2,
+          "tripCount": 37,
+          "stops": 56,
+          "lengthKm": 25.21,
+          "stats": {
+            "observations": 1300,
+            "matched": 1300,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.25482784376645534,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "937",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Tábor-hegy",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 13,
+          "lengthKm": 4.1,
+          "stats": {
+            "observations": 211,
+            "matched": 211,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.21806548971336004,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Szentlélek tér H",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 20,
+          "lengthKm": 6.2,
+          "stats": {
+            "observations": 324,
+            "matched": 324,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.1466739154584146,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "938",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Szigetszentmiklós",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 22,
+          "lengthKm": 11.85,
+          "stats": {
+            "observations": 546,
+            "matched": 546,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.21743928060770853,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Csepel, Szent Imre tér",
+          "variants": 3,
+          "tripCount": 6,
+          "stops": 34,
+          "lengthKm": 19.4,
+          "stats": {
+            "observations": 931,
+            "matched": 931,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2788494569549234,
+            "roundaboutSegs": 48,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "940",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Budaörsi lakótelep",
+          "variants": 5,
+          "tripCount": 4,
+          "stops": 23,
+          "lengthKm": 11.06,
+          "stats": {
+            "observations": 567,
+            "matched": 567,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.12364411905380517,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kamaraerdő",
+          "variants": 2,
+          "tripCount": 6,
+          "stops": 17,
+          "lengthKm": 6.3,
+          "stats": {
+            "observations": 332,
+            "matched": 332,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.28159192165401475,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "941",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Budatétény",
+          "variants": 3,
+          "tripCount": 18,
+          "stops": 81,
+          "lengthKm": 35.79,
+          "stats": {
+            "observations": 1841,
+            "matched": 1841,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2646458993138337,
+            "roundaboutSegs": 56,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rákosszentmihály vá.",
+          "variants": 2,
+          "tripCount": 24,
+          "stops": 90,
+          "lengthKm": 36.94,
+          "stats": {
+            "observations": 1842,
+            "matched": 1842,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.24651180968215505,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "943",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Szentendre H",
+          "variants": 3,
+          "tripCount": 2,
+          "stops": 37,
+          "lengthKm": 26.14,
+          "stats": {
+            "observations": 1305,
+            "matched": 1305,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.1543958179056884,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Óbudai autóbuszgarázsÓbudai autóbuszgarázs",
+          "variants": 2,
+          "tripCount": 2,
+          "stops": 18,
+          "lengthKm": 15.68,
+          "stats": {
+            "observations": 768,
+            "matched": 768,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.13532198472736146,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "946",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dél-pesti autóbuszgarázs",
+          "variants": 4,
+          "tripCount": 12,
+          "stops": 64,
+          "lengthKm": 27.74,
+          "stats": {
+            "observations": 1411,
+            "matched": 1411,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.18797862231306503,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Újpalota, Nyírpalota út",
+          "variants": 2,
+          "tripCount": 16,
+          "stops": 67,
+          "lengthKm": 28.07,
+          "stats": {
+            "observations": 1424,
+            "matched": 1424,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.11728053745546745,
+            "roundaboutSegs": 48,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "948",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Csepel-Királyerdő",
+          "variants": 2,
+          "tripCount": 34,
+          "stops": 36,
+          "lengthKm": 16.7,
+          "stats": {
+            "observations": 854,
+            "matched": 854,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.12549955326319734,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dél-pesti autóbuszgarázs",
+          "variants": 2,
+          "tripCount": 38,
+          "stops": 56,
+          "lengthKm": 25.92,
+          "stats": {
+            "observations": 1330,
+            "matched": 1330,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.12337375165687212,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "950",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Pestszentimre vá.",
+          "variants": 4,
+          "tripCount": 14,
+          "stops": 74,
+          "lengthKm": 34,
+          "stats": {
+            "observations": 1761,
+            "matched": 1761,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.44246408530297154,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Újpalota",
+          "variants": 7,
+          "tripCount": 18,
+          "stops": 73,
+          "lengthKm": 35.16,
+          "stats": {
+            "observations": 1811,
+            "matched": 1811,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.4032480400636189,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "955",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Fácános tér",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 17,
+          "lengthKm": 5.18,
+          "stats": {
+            "observations": 265,
+            "matched": 265,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.14778781977641134,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Széll Kálmán tér M",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 18,
+          "lengthKm": 5.41,
+          "stats": {
+            "observations": 284,
+            "matched": 284,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.35692882950001786,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "958",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Arany János utcai ltp.",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 18,
+          "lengthKm": 8.44,
+          "stats": {
+            "observations": 412,
+            "matched": 412,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.07617911661139092,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Boráros tér H",
+          "variants": 3,
+          "tripCount": 12,
+          "stops": 43,
+          "lengthKm": 17.46,
+          "stats": {
+            "observations": 897,
+            "matched": 897,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.11707214345139441,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "960",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Harsánylejtő",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 15,
+          "lengthKm": 5.63,
+          "stats": {
+            "observations": 291,
+            "matched": 291,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.24311937646480455,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Szentlélek tér H",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 15,
+          "lengthKm": 5.91,
+          "stats": {
+            "observations": 309,
+            "matched": 309,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.34136998290126946,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "963",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nagykovácsi, Tisza I. tér",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 16,
+          "lengthKm": 8.62,
+          "stats": {
+            "observations": 423,
+            "matched": 423,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.22278719427110705,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Hűvösvölgy",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 17,
+          "lengthKm": 8.73,
+          "stats": {
+            "observations": 429,
+            "matched": 429,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.20943860957524663,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "964",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Solymár, PEMÜ",
+          "variants": 2,
+          "tripCount": 4,
+          "stops": 27,
+          "lengthKm": 12.52,
+          "stats": {
+            "observations": 651,
+            "matched": 651,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.27955157017165616,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Hűvösvölgy",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 23,
+          "lengthKm": 9.79,
+          "stats": {
+            "observations": 506,
+            "matched": 506,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.24367404842375928,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "966",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Millenniumtelep H",
+          "variants": 3,
+          "tripCount": 8,
+          "stops": 69,
+          "lengthKm": 28.49,
+          "stats": {
+            "observations": 1469,
+            "matched": 1469,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2397519921510896,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kolosy tér",
+          "variants": 3,
+          "tripCount": 7,
+          "stops": 65,
+          "lengthKm": 27.96,
+          "stats": {
+            "observations": 1436,
+            "matched": 1436,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.21669129949031327,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "969",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Pécel",
+          "variants": 2,
+          "tripCount": 7,
+          "stops": 55,
+          "lengthKm": 26.16,
+          "stats": {
+            "observations": 1313,
+            "matched": 1313,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.4681309309521716,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Deák Ferenc tér M",
+          "variants": 2,
+          "tripCount": 7,
+          "stops": 54,
+          "lengthKm": 25.69,
+          "stats": {
+            "observations": 1282,
+            "matched": 1282,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.3075276281431069,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "979",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Csepel, Csillagtelep",
+          "variants": 2,
+          "tripCount": 59,
+          "stops": 34,
+          "lengthKm": 14.82,
+          "stats": {
+            "observations": 747,
+            "matched": 747,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6186492815660783,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Deák Ferenc tér M",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 25,
+          "lengthKm": 11.65,
+          "stats": {
+            "observations": 581,
+            "matched": 581,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.3682717633209351,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "983",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "Pestszentimre",
+          "headsign": "Pestszentimre",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 32,
+          "lengthKm": 13.8,
+          "stats": {
+            "observations": 691,
+            "matched": 691,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.16832461940679536,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "984",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Kőbánya alsó vasútáll.",
+          "variants": 4,
+          "tripCount": 12,
+          "stops": 66,
+          "lengthKm": 30.71,
+          "stats": {
+            "observations": 1582,
+            "matched": 1582,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.330265682109464,
+            "roundaboutSegs": 48,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Káposztásmegyer",
+          "variants": 6,
+          "tripCount": 2,
+          "stops": 72,
+          "lengthKm": 33.67,
+          "stats": {
+            "observations": 1732,
+            "matched": 1732,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2252820246701788,
+            "roundaboutSegs": 36,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "985",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rákospalota",
+          "variants": 4,
+          "tripCount": 17,
+          "stops": 66,
+          "lengthKm": 32.43,
+          "stats": {
+            "observations": 1672,
+            "matched": 1672,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2680889758972917,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kőbánya alsó vasútáll.",
+          "variants": 5,
+          "tripCount": 12,
+          "stops": 55,
+          "lengthKm": 27.76,
+          "stats": {
+            "observations": 1434,
+            "matched": 1434,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.3888218078757036,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "987",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Kőérberek",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 6,
+          "lengthKm": 3.88,
+          "stats": {
+            "observations": 198,
+            "matched": 198,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.0900485411054194,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kelenföld vasútállomás M",
+          "variants": 1,
+          "tripCount": 17,
+          "stops": 4,
+          "lengthKm": 3.1,
+          "stats": {
+            "observations": 158,
+            "matched": 158,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.10927559855584743,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "988",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Törökbálint",
+          "variants": 12,
+          "tripCount": 10,
+          "stops": 98,
+          "lengthKm": 45.27,
+          "stats": {
+            "observations": 2343,
+            "matched": 2343,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.20295013659057057,
+            "roundaboutSegs": 136,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Budakeszi",
+          "variants": 5,
+          "tripCount": 6,
+          "stops": 69,
+          "lengthKm": 30.57,
+          "stats": {
+            "observations": 1560,
+            "matched": 1560,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.20939712202236765,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "992",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Gödöllő H",
+          "variants": 6,
+          "tripCount": 4,
+          "stops": 74,
+          "lengthKm": 48.12,
+          "stats": {
+            "observations": 2326,
+            "matched": 2326,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.24469879766678773,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Deák Ferenc tér M",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 72,
+          "lengthKm": 47.92,
+          "stats": {
+            "observations": 2319,
+            "matched": 2319,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.21879920529349106,
+            "roundaboutSegs": 64,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "994",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Gyál",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 31,
+          "lengthKm": 13.18,
+          "stats": {
+            "observations": 646,
+            "matched": 646,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.32826776332719276,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Határ út M",
+          "variants": 2,
+          "tripCount": 15,
+          "stops": 47,
+          "lengthKm": 21.88,
+          "stats": {
+            "observations": 1059,
+            "matched": 1059,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2778501993206342,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "995",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rákoscsaba",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 58,
+          "lengthKm": 26.4,
+          "stats": {
+            "observations": 1307,
+            "matched": 1307,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2268744374080631,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Puskás Ferenc Stadion M",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 41,
+          "lengthKm": 19.02,
+          "stats": {
+            "observations": 911,
+            "matched": 911,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.11036413648802751,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "line": "997",
+      "mode": "bus",
+      "color": "#000000",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rákoskert sugárút",
+          "variants": 2,
+          "tripCount": 17,
+          "stops": 58,
+          "lengthKm": 16.85,
+          "stats": {
+            "observations": 833,
+            "matched": 833,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.48801263904093317,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Deák Ferenc tér M",
+          "variants": 2,
+          "tripCount": 22,
+          "stops": 34,
+          "lengthKm": 16.48,
+          "stats": {
+            "observations": 811,
+            "matched": 811,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.2582068241479693,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ],
+      "rank": 2
     }
   ]
 }
