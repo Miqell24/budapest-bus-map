@@ -3923,7 +3923,7 @@
         },
         {
           "dir": "1",
-          "headsign": "Kelenföld vasútállomás M",
+          "headsign": "Kelenföld vasútállomás M",
           "variants": 2,
           "tripCount": 88,
           "stops": 56,
@@ -15539,7 +15539,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Vác-Verőce-Kismaros-Szokolya,Királyrét",
+          "headsign": "Vác-Verőce-Kismaros-Szokolya, Királyrét",
           "variants": 4,
           "tripCount": 2,
           "stops": 19,
@@ -15590,7 +15590,7 @@
       "dirs": [
         {
           "dir": "0",
-          "headsign": "Szob-Kismaros-Szokolya,Királyrét",
+          "headsign": "Szob-Kismaros-Szokolya, Királyrét",
           "variants": 5,
           "tripCount": 3,
           "stops": 14,
@@ -23981,7 +23981,7 @@
       "dirs": [
         {
           "dir": "Market Central-Gyál Vecsés, Market Central-Budapest, Kőbánya-Kispest",
-          "headsign": "Market Central-Gyál    Vecsés, Market Central-Budapest, Kőbánya-Kispest",
+          "headsign": "Market Central-Gyál Vecsés, Market Central-Budapest, Kőbánya-Kispest",
           "variants": 1,
           "tripCount": 13,
           "stops": 40,
@@ -32330,7 +32330,7 @@
         },
         {
           "dir": "1",
-          "headsign": "792  Perbál - Budajenő - Telki - Páty -Biatorbágy",
+          "headsign": "792 Perbál - Budajenő - Telki - Páty -Biatorbágy",
           "variants": 2,
           "tripCount": 1,
           "stops": 19,
