@@ -9,7 +9,7 @@ drawn along the real street and track geometry, weighted mean matching error
 
 ## Live
 
-**https://miqell24.github.io/budapest-bus-map/** — GitHub Pages from `main:/docs`. Local build on port 8154 (`npm run serve`).
+**https://agcghub.github.io/budapest-bus-map/** — GitHub Pages from `main:/docs`. Local build on port 8154 (`npm run serve`).
 
 Two feeds. The BKK bundle (https://bkk.hu/gtfs/budapest_gtfs.zip) is the city,
 split by `route_type` at build time; the national Volánbusz feed contributes
