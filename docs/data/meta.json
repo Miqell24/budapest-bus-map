@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T12:45:44.058Z",
+  "generatedAt": "2026-09-17T11:35:32.164Z",
   "bbox": [
     18.025347,
     46.348684,
@@ -36473,57 +36473,6 @@
       "op": "bkk"
     },
     {
-      "line": "4-6",
-      "mode": "tram",
-      "color": "#d6212b",
-      "dirs": [
-        {
-          "dir": "0",
-          "headsign": "Újbuda-központ M",
-          "variants": 2,
-          "tripCount": 817,
-          "stops": 19,
-          "lengthKm": 8.29,
-          "stats": {
-            "observations": 422,
-            "matched": 422,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.2679197025806867,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        },
-        {
-          "dir": "1",
-          "headsign": "Széll Kálmán tér M",
-          "variants": 2,
-          "tripCount": 814,
-          "stops": 19,
-          "lengthKm": 8.36,
-          "stats": {
-            "observations": 425,
-            "matched": 425,
-            "noCandidates": 0,
-            "viterbiBreaks": 0,
-            "bridged": 0,
-            "rawStretchCount": 0,
-            "rawMeters": 0,
-            "meanError": 0.3459254875059907,
-            "roundaboutSegs": 0,
-            "extStart": 0,
-            "extEnd": 0
-          }
-        }
-      ],
-      "rank": 1,
-      "op": "bkk"
-    },
-    {
       "line": "6",
       "mode": "tram",
       "color": "#d6212b",
@@ -36572,6 +36521,7 @@
         }
       ],
       "rank": 1,
+      "h24": 1,
       "op": "bkk"
     },
     {

@@ -191,7 +191,11 @@ if (tramAll || tramSel.length) MODES.push({
   color: '#d6212b', colorDark: '#7c1116',
   all: tramAll, lines: tramAll ? [] : tramSel,
   feeds: [
-    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['0'], op: () => 'bkk' },
+    // 4-6 is not a line anyone rides: the joint 4+6 working over the Grand
+    // Boulevard is normally not operated (user 17.09.2026) — lines 4 and 6
+    // draw the corridor on their own
+    { tag: 'bkk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['0'], op: () => 'bkk',
+      skipRoute: (r) => (r.route_short_name || '').trim() === '4-6' },
   ],
 });
 if (tramAll || metroSel.length) MODES.push({
@@ -1707,7 +1711,9 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   // the panel groups its chip cloud by these: the operator, and inside
   // Volánbusz the hundreds block that IS the region (see LINE_OP above)
   ops: OP_NAME,
-  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line),
+  // h24: tram 6 on the Grand Boulevard runs round the clock — underlined in
+  // black on the map (user 17.09.2026)
+  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line), ...(l.mode === 'tram' && l.line === '6' ? { h24: 1 } : {}),
     ...(LINE_OP.has(l.line) ? { op: LINE_OP.get(l.line) } : {}) })),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);

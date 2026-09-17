@@ -70,3 +70,8 @@ map-matches every line (HMM/Viterbi on the OSM graphs) and writes GeoJSON to
 
 Data: BKK (BKK Zrt., MÁV-HÉV) · Volánbusz (regional lines 300–899) ·
 base map © OpenFreeMap / OpenMapTiles / OpenStreetMap contributors.
+
+## 17.09.2026 — requested fixes
+
+- **Tram 4-6 removed.** The joint 4+6 working is normally not operated; lines 4 and 6 draw the Grand Boulevard on their own (`skipRoute`).
+- **Tram 6 is 24/7.** Its number is underlined in black in the panel and on the terminus badges (`h24` in `meta.json`).
