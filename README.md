@@ -74,4 +74,4 @@ base map © OpenFreeMap / OpenMapTiles / OpenStreetMap contributors.
 ## 17.09.2026 — requested fixes
 
 - **Tram 4-6 removed.** The joint 4+6 working is normally not operated; lines 4 and 6 draw the Grand Boulevard on their own (`skipRoute`).
-- **Tram 6 is 24/7.** Its number is underlined in black in the panel and on the terminus badges (`h24` in `meta.json`).
+- **Tram 6 is 24/7.** Its number is underlined in black in the panel and on the terminus badges (`h24` in `meta.json`). **18.09.2026:** the mark is now a black `+` after the number, one space away (`100 +`) — the street rows could not carry an underline (MapLibre has no text decoration), and the rows are where a reader meets the number. One mark everywhere: the rows (sectioned by `pipeline/h24.mjs`, the last post-pass), the terminus badges, the panel chips (a black tab), the stop popups, the legend and the PDF export.

@@ -39,6 +39,8 @@ const TROLLEY_DARK = '#0a5121';
 const MLINE_YELLOW = '#e8a000';
 const MLINE_DARK = '#7d5600';
 
+// Lines that run round the clock (meta.json h24, a black "+" after the number)
+const H24 = new Set(['tram|6']);
 const t0 = Date.now();
 const log = (m) => console.log(`[${((Date.now() - t0) / 1000).toFixed(1)}s] ${m}`);
 // Natural line order everywhere lists are composed (street number rows,
@@ -1711,9 +1713,9 @@ writeFileSync(join(outDir, 'meta.json'), JSON.stringify({
   // the panel groups its chip cloud by these: the operator, and inside
   // Volánbusz the hundreds block that IS the region (see LINE_OP above)
   ops: OP_NAME,
-  // h24: tram 6 on the Grand Boulevard runs round the clock — underlined in
-  // black on the map (user 17.09.2026)
-  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line), ...(l.mode === 'tram' && l.line === '6' ? { h24: 1 } : {}),
+  // h24: tram 6 on the Grand Boulevard runs round the clock — a black "+"
+  // after the number (user 18.09.2026; 17.09 it was a black underline)
+  lines: metaLines.map((l) => ({ ...l, rank: lineRank(l.line), ...(H24.has(l.mode + '|' + l.line) ? { h24: 1 } : {}),
     ...(LINE_OP.has(l.line) ? { op: LINE_OP.get(l.line) } : {}) })),
 }, null, 2));
 log(`Wrote data/out/{route,streets,labels,street-names,stops,badges,gtfs-shape}.geojson + meta.json`);
@@ -1727,3 +1729,7 @@ await (await import('./night.mjs')).nightPass(outDir, /^9\d\d$/, { sort: true })
 // …and a liveried line keeps its own colour in the number rows, even where it
 // shares a corridor with another one (user rule, 9.09.2026): see railrows.mjs.
 await (await import('./railrows.mjs')).railRowPass(outDir, /^9\d\d$/, { log });
+// Lines running round the clock print a black "+" after their number in the
+// street rows (user 18.09.2026; the underline of 17.09 could not be drawn
+// there): the LAST post-pass, see h24.mjs.
+(await import('./h24.mjs')).h24Pass(outDir, H24, { log });
